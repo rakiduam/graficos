@@ -6,10 +6,24 @@
 # serie de colores de tipo divergente
 #### SERIES DE COLORES ####
 
-paleta1 = c ( 'red', 'green', 'blue', 'magenta', 'cyan' )
+#paleta1 = c ( 'red', 'green', 'blue', 'magenta', 'cyan' )
+# "#FFBF7F" "#FF7F00" "#FFFF99" "#FFFF32" "#B2FF8C" "#32FF00" "#A5EDFF" "#19B2FF" "#CCBFFF" "#654CFF" "#FF99BF" "#E51932"
+paleta1 = c ( rgb(255, 191, 127, max=255), 
+              rgb(255, 127, 0, max=255), 
+              rgb(255, 255, 153, max=255), 
+              rgb(255, 255, 50, max=255), 
+              rgb(178, 255, 140, max=255), 
+              rgb(50, 255, 0, max=255), 
+              rgb(165, 237, 255, max=255), 
+              rgb(25, 178, 255, max=255), 
+              rgb(204, 191, 255, max=255), 
+              rgb(101, 76, 255, max=255), 
+              rgb(255, 153, 191, max=255), 
+              rgb(229, 25, 50, max=255) )
+
 
 neutral = c ( 'gold','black' )
-
+# "#8E0152" "#C51B7D" "#DE77AE" "#F1B6DA" "#FDE0EF" "#F7F7F7" "#E6F5D0" "#B8E186" "#7FBC41" "#4D9221" "#276419"
 PiYG= c ( rgb ( 142, 1, 82, max = 255 ), rgb( 197, 27, 125, max = 255 ), 
                 rgb ( 222, 119, 174, max = 255 ), rgb ( 241, 182, 218, max = 255 ), 
                 rgb ( 253, 224, 239, max = 255 ), rgb ( 247, 247, 247, max = 255 ), 
