@@ -8,19 +8,31 @@
 
 #paleta1 = c ( 'red', 'green', 'blue', 'magenta', 'cyan' )
 # "#FFBF7F" "#FF7F00" "#FFFF99" "#FFFF32" "#B2FF8C" "#32FF00" "#A5EDFF" "#19B2FF" "#CCBFFF" "#654CFF" "#FF99BF" "#E51932"
-paleta1 = c ( rgb(255, 191, 127, max=255), 
-              rgb(255, 127, 0, max=255), 
-              rgb(255, 255, 153, max=255), 
-              rgb(255, 255, 50, max=255), 
-              rgb(178, 255, 140, max=255), 
-              rgb(50, 255, 0, max=255), 
-              rgb(165, 237, 255, max=255), 
-              rgb(25, 178, 255, max=255), 
-              rgb(204, 191, 255, max=255), 
-              rgb(101, 76, 255, max=255), 
-              rgb(255, 153, 191, max=255), 
-              rgb(229, 25, 50, max=255) )
+# paleta1 = c ( rgb(255, 191, 127, max=255), 
+#               rgb(255, 127, 0, max=255), 
+#               rgb(255, 255, 153, max=255), 
+#               rgb(255, 255, 50, max=255), 
+#               rgb(178, 255, 140, max=255), 
+#               rgb(50, 255, 0, max=255), 
+#               rgb(165, 237, 255, max=255), 
+#               rgb(25, 178, 255, max=255), 
+#               rgb(204, 191, 255, max=255), 
+#               rgb(101, 76, 255, max=255), 
+#               rgb(255, 153, 191, max=255), 
+#               rgb(229, 25, 50, max=255) )
 
+# paleta1 = c ("#E51932",
+#              "#19B2FF",
+#              "#32FF00",
+#              "#FF7F00",
+#              "#654CFF",
+#              "#A5EDFF",
+#              "#FFFF32",
+#              "#B2FF8C",
+#              "#CCBFFF",
+#              "#FF99BF",
+#              "#FFBF7F",
+#              "#FFFF99")
 
 neutral = c ( 'gold','black' )
 # "#8E0152" "#C51B7D" "#DE77AE" "#F1B6DA" "#FDE0EF" "#F7F7F7" "#E6F5D0" "#B8E186" "#7FBC41" "#4D9221" "#276419"
@@ -32,9 +44,38 @@ PiYG= c ( rgb ( 142, 1, 82, max = 255 ), rgb( 197, 27, 125, max = 255 ),
                 rgb ( 39, 100, 25, max = 255 ) )
 
 #### ColorRampPalette: ####
-RdBu.palette <-colorRampPalette ( c ( '#720000', '#ff0000', '#ffc8c8', '#ffffff', 'royalblue','mediumblue','darkblue' ) , space = 'rgb' )
+paleta1.palette<- colorRampPalette (paleta1)
 
-viridis.palette <-colorRampPalette(c('blue','yellow','green'), space='rgb')
+RdBu.palette <- colorRampPalette ( c ( "#720000", "#D00000", "#FF4242",
+                                       "#FFC8C8", "#FFECEC", "#FFFFFF", 
+                                       "#BFCCF4", "#4169E1", "#1523D3", 
+                                       "#0000B7", "#00008B" ) , space = 'rgb' )
+
+# redblue.palette <- colorRampPalette ( c ( "#67001F", "#B2182B", "#D6604D", 
+#                                           "#F4A582", "#FDDBC7", "#F7F7F7", 
+#                                           "#D1E5F0", "#92C5DE", "#4393C3", 
+#                                           "#2166AC", "#053061" ) )
+# 
+# redblue.ramp <- colorRamp ( c ( "#67001F", "#B2182B", "#D6604D", "#F4A582", 
+#                                 "#FDDBC7", "#F7F7F7", "#D1E5F0", "#92C5DE", 
+#                                 "#4393C3", "#2166AC", "#053061"))
+# 
+
+#matplotlib, para distintos tipos de ceguera al color
+viridis.palette <-colorRampPalette ( c ( "#440154FF", "#482878FF", "#3E4A89FF", 
+                                         "#31688EFF", "#26828EFF", "#1F9E89FF",
+                                         "#35B779FF", "#6DCD59FF", "#B4DE2CFF",
+                                         "#FDE725FF") )
+
+jet.palette <- colorRampPalette ( c ( "#00007F", "#0000FF", "#007FFF", "#00FFFF", 
+                                "#7FFF7F", "#FFFF00", "#FF7F00", "#FF0000", 
+                                "#7F0000" ) )
+
+# jet.palette <- colorRampPalette(c("#00007F", "blue", "#007FFF", "cyan", "#7FFF7F",
+#                                  "yellow", "#FF7F00", "red", "#7F0000"))
+
+
+
 
 # # colorRamp1
 # rainbow = c(rgb(255,0,0, max=255), rgb(255,255,255, max=255))
@@ -66,13 +107,15 @@ viridis.palette <-colorRampPalette(c('blue','yellow','green'), space='rgb')
 # 
 # filled.contour(m, col = rgb.palette(20))
 # filled.contour(m, col = Lab.palette(20))
-# filled.contour(m, col = RdBu.palette(20))
-# filled.contour(m, col = viridis.palette(20))
 # filled.contour(m, col = paleta1.palette(20))
+# filled.contour(m, col = viridis.palette(20))
+# filled.contour(m, col = RdBu.palette(20))
+# filled.contour(m, col = redblue.palette(20))
+# filled.contour(m, col = redblue.ramp(20))
 # filled.contour(m, col = paleta2.palette(20))
 # filled.contour(m, col = neutral.palette(20))
-# filled.contour(m, col = rainbow.palette(20))
-# filled.contour(m, col = divergente.palette(22))
+# filled.contour(m, col = viridis.palette(20))
+# filled.contour(m, col = jet.palette(5))
 # 
 # "white"                "aliceblue"            "antiquewhite"         "antiquewhite1"       
 # "antiquewhite2"        "antiquewhite3"        "antiquewhite4"        "aquamarine"          

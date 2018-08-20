@@ -1,11 +1,24 @@
-Graficos que se usan constantemente o que simplemente deseo tener a mano.
-en R, python o matlab.
+Paleta de colores y Graficos, de uso constante, "pre configurados" para tener 
+a mano. en lenguajes R, python o matlab.
 
-modificar cuando haya tiempo.
+Listo
 
-la meta es tener un grafico simple de 
+Paleta de colores
+[ ] R
+[ ] Python
+[ ] Matlab
 
-- heatmap (para ver vacios en los datos)
-- regresion (correlacion de datos)
+R
+[ ] regresión (con intervalos de confianza)
+[ ] scatterplot
+[ ] heatmap
+
+Python
 - graficos polares (para los cursos)
 - skew-t (en caso de necesitar)
+
+Matlab
+- graficos polares (para los cursos)
+- skew-t (en caso de necesitar)
+
+en proceso...
