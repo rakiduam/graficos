@@ -1,24 +1,24 @@
-Paleta de colores y Graficos, de uso constante, "pre configurados" para tener 
+## Paleta de colores y Graficos, de uso constante, "pre configurados" para tener 
 a mano. en lenguajes R, python o matlab.
 
-Listo
+Listo</br>
 
-Paleta de colores
-[ ] R
-[ ] Python
-[ ] Matlab
+### Paleta de colores</br>
+- [x] R </br>
+- [ ] Python </br>
+- [ ] Matlab </br>
 
-R
-[ ] regresión (con intervalos de confianza)
-[ ] scatterplot
-[ ] heatmap
+### R</br>
+- [ ] regresión (con intervalos de confianza)</br>
+- [ ] scatterplot</br>
+- [ ] heatmap</br>
 
-Python
-- graficos polares (para los cursos)
-- skew-t (en caso de necesitar)
+### Python</br>
+- [ ] graficos polares (para los cursos)</br>
+- [ ] skew-t (en caso de necesitar)</br>
 
-Matlab
-- graficos polares (para los cursos)
-- skew-t (en caso de necesitar)
+### Matlab</br>
+- [ ] graficos polares (para los cursos)</br>
+- [ ] skew-t (en caso de necesitar)</br>
 
 en proceso...
