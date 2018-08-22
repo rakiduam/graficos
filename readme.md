@@ -1,5 +1,5 @@
-## Paleta de colores y Graficos, de uso constante, "pre configurados" para tener 
-a mano. en lenguajes R, python o matlab.
+## Idea general
+Crear paletas de colores de uso rapido, además de tener esqueletos de gráficos más usados de forma pre configurada en lenguajes R, python o matlab.
 
 Listo</br>
 
