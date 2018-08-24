@@ -1,5 +1,5 @@
-## Paleta de colores y Graficos, de uso constante, "pre configurados" para tener 
-a mano. en lenguajes R, python o matlab.
+## Idea general
+Crear paletas de colores de uso rapido, además de tener esqueletos de gráficos más usados de forma pre configurada en lenguajes R, python o matlab.
 
 Listo</br>
 
@@ -9,19 +9,16 @@ Listo</br>
 - [ ] Matlab </br>
 
 ### R</br>
-#### R-base
 - [ ] regresión (con intervalos de confianza)</br>
 - [ ] scatterplot</br>
 - [ ] heatmap</br>
-#### ggplot2
-
 
 ### Python</br>
-- [ ] graficos polares</br>
-- [ ] otros especiales (en caso de necesitar)</br>
+- [ ] graficos polares (para los cursos)</br>
+- [ ] skew-t (en caso de necesitar)</br>
 
 ### Matlab</br>
-- [ ] graficos polares</br>
-- [ ] otros</br>
+- [ ] graficos polares (para los cursos)</br>
+- [ ] skew-t (en caso de necesitar)</br>
 
 en proceso...
