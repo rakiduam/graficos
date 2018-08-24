@@ -15,10 +15,10 @@ Listo</br>
 
 ### Python</br>
 - [ ] graficos polares (para los cursos)</br>
-- [ ] skew-t (en caso de necesitar)</br>
+- [ ] otros (en caso de necesitar)</br>
 
 ### Matlab</br>
 - [ ] graficos polares (para los cursos)</br>
-- [ ] skew-t (en caso de necesitar)</br>
+- [ ] otros (en caso de necesitar)</br>
 
 en proceso...
